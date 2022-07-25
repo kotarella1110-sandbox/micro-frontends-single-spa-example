@@ -1,8 +1,8 @@
 {
   "name": "@kotarella1110/react-app",
   "scripts": {
-    "start": "webpack serve",
-    "start:standalone": "webpack serve --env standalone",
+    "start": "webpack serve --port 9001",
+    "start:standalone": "webpack serve --port 9001 --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
